@@ -7,21 +7,6 @@
   color: white;
   font-size: calc(10px + 2vmin);
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .formCard {
@@ -76,6 +61,7 @@
   -webkit-backdrop-filter: blur( 20px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  max-width: 600px;
 }
 
 .userDetailBody {
